@@ -59,7 +59,7 @@ console.log(error.message);
 
 
 })
-const  PORT=process.env.PORT||4000
+const  PORT=5000
 app.listen(PORT,()=>{
     console.log(`server started running at port 4000`)
 })
